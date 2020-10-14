@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
 }
 
 body {
@@ -12,8 +11,10 @@ body {
 /* Style the header */
 
 .header {
-    background-color: rgb(49, 97, 185);
-    padding: 20px;
+    background-image: url("./the-digital-art-of-bastien-grivet.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
 }
 
@@ -28,15 +29,19 @@ body {
 
 /* Create three equal columns that floats next to each other */
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     padding: 20px 20%;
 }
 
-.column h2 {
-    color: rgb(49, 97, 185);
+.one-column h1,
+.one-column h2 {
     text-align: center;
+}
+
+#cadetblue {
+    background-color: cadetblue;
 }
 
 
@@ -48,17 +53,31 @@ body {
     clear: both;
 }
 
-.gallery {
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column h1 {
+    font-size: 20px;
+}
+
+.two-column h2 {
+    font-size: 15px;
+}
+
+.three-column {
     padding: 20px;
     float: left;
     width: 33.33%;
 }
 
-.gallery img {
+.three-column img {
     width: 100%;
 }
 
-.gallery .desc {
+.three-column .desc {
     padding: 15px;
     text-align: center;
 }
