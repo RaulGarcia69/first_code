@@ -11,7 +11,7 @@ body {
 /* Style the header */
 
 .header {
-    background-image: url("./the-digital-art-of-bastien-grivet.jpeg");
+    background-image: url("../img/the-digital-art-of-bastien-grivet.jpeg");
     background-size: cover;
     background-attachment: fixed;
     padding: 10% 20px;
